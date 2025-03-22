@@ -1,5 +1,7 @@
 # Carbon Crunch - Eco Reporting Website
 
+<img width="1710" alt="Screenshot 2025-03-22 at 1 46 31 PM" src="https://github.com/user-attachments/assets/6c102c03-1d2d-4cc3-8fef-877473001953" />
+
 ## Project Overview
 "Carbon Crunch" is a single-page website designed for a fictional company that provides eco-reporting solutions. The homepage features a modern, minimal design with a transparent navigation bar that changes color on scroll, a hero section with a glassmorphism effect, and sections for stats, features, and services. The goal was to create a clean, user-friendly interface that emphasizes sustainability while maintaining a professional and visually appealing aesthetic.
 
@@ -53,8 +55,35 @@ The development of this project followed a structured approach to achieve a mini
    - Adjusted font sizes, padding, and element stacking for mobile devices (below 768px).
    - Reduced the logo size and nav bar padding on smaller screens to maintain a balanced layout.
 
+
+## External Assets
+Here are the external of this project:
+
+## Images:
+
+### background: Hero section background (stethoscope and globe on moss).
+![hero-image](https://github.com/user-attachments/assets/25c3b311-0f5f-4422-b14b-d50c9507ee01)
+
+### logo: Nav bar logo.
+![logo](https://github.com/user-attachments/assets/1a1dd61f-d97d-46ee-aa48-fe92d59c9f63)
+
+### service: Services section image.
+![services-image](https://github.com/user-attachments/assets/7aceadef-c95e-4bad-8f97-2056e5ca13a3)
+ 
+
+## Fonts:
+Poppins font from Google Fonts (https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap).
+
+## Icons:
+Inline SVGs are used for the features section icons and scroll-down indicator (e.g., <svg> tags in index.html). These are not external assets since they're coded directly in the HTML.
+
+## Animations:
+Animations (e.g., slide-in effects, scroll-down bounce) are implemented using CSS (@keyframes) and JavaScript. These are not external assets.
+
 ## Setup Instructions
 To run this project locally, follow these steps:
+
+
 
 1. Clone the repository:
    ```bash
