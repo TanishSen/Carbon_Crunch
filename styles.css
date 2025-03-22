@@ -12,18 +12,6 @@ body {
 }
 
 /* Header */
-/* header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  background-color: rgba(0, 0, 0, 0);
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-} */
 
 header {
   display: flex;
@@ -57,11 +45,11 @@ header.scrolled .header-buttons .login-btn {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between logo image and text */
+  gap: 10px;
 }
 
 .logo-img {
-  height: 30px; /* Adjust the height of the logo */
+  height: 30px;
   width: auto;
 }
 
@@ -411,7 +399,6 @@ nav ul li a:hover {
   height: 550px;
   object-fit: cover;
   border-radius: 15px;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .services-boxes {
