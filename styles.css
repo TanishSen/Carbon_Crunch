@@ -29,7 +29,7 @@ header.scrolled {
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 10px 10px;
-  position: sticky;
+  position: fixed;
 }
 
 header.scrolled .logo .logo-text,
@@ -130,6 +130,8 @@ nav ul li a:hover {
   justify-content: flex-start;
   padding: 0 50px;
   background: url("images/hero-image.jpeg") no-repeat center center/cover;
+  transform: scale(1.5);
+  transform-origin: center;
   overflow: hidden;
 }
 
@@ -450,7 +452,7 @@ nav ul li a:hover {
 .slide-in {
   opacity: 0;
   transform: translateX(-50px);
-  transition: all 0.8s ease-out;
+  transition: transform 0.8s ease-out;
 }
 
 .slide-in.visible {
