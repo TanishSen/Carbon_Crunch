@@ -58,4 +58,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-(https://github.com/TanishSen/Carbon_Crunch.git)
+   git clone [https://github.com/TanishSen/carbon-crunch.git]
