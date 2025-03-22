@@ -64,7 +64,7 @@ Here are the external of this project:
 ### background: Hero section background (stethoscope and globe on moss).
 ![hero-image](https://github.com/user-attachments/assets/25c3b311-0f5f-4422-b14b-d50c9507ee01)
 
-### logo: Nav bar logo.
+### logo: Nav bar logo and favicon.
 ![logo](https://github.com/user-attachments/assets/1a1dd61f-d97d-46ee-aa48-fe92d59c9f63)
 
 ### service: Services section image.
