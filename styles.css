@@ -28,8 +28,8 @@ header {
 header.scrolled {
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 0 0 10px 10px;
-  position: fixed;
+  /* border-radius: 0 0 10px 10px; */
+  position: sticky;
 }
 
 header.scrolled .logo .logo-text,
@@ -130,8 +130,6 @@ nav ul li a:hover {
   justify-content: flex-start;
   padding: 0 50px;
   background: url("images/hero-image.jpeg") no-repeat center center/cover;
-  transform: scale(1.5);
-  transform-origin: center;
   overflow: hidden;
 }
 
@@ -452,7 +450,7 @@ nav ul li a:hover {
 .slide-in {
   opacity: 0;
   transform: translateX(-50px);
-  transition: transform 0.8s ease-out;
+  transition: all 0.8s ease-out;
 }
 
 .slide-in.visible {
@@ -525,26 +523,25 @@ nav ul li a:hover {
     display: none;
   }
 
-  /* Adjust logo for smaller screens */
   .logo-img {
-    height: 24px; /* Smaller logo on mobile */
+    height: 24px;
   }
 
   .logo-text {
-    font-size: 20px; /* Smaller text on mobile */
+    font-size: 20px;
   }
 
   header {
-    padding: 15px 20px; /* Reduced padding for mobile */
+    padding: 15px 20px;
   }
 
   nav ul li {
-    margin: 0 10px; /* Reduced spacing between nav items */
+    margin: 0 10px;
   }
 
   .header-buttons .login-btn,
   .header-buttons .book-demo-btn {
-    padding: 6px 15px; /* Smaller buttons on mobile */
+    padding: 6px 15px;
     font-size: 14px;
   }
 }
